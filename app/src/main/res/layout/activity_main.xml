@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/Dark_Purple"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="Welcome to ___. Click on the topic you want to learn about."
+        android:textColor="@color/Pink"
+        android:layout_marginBottom="200dp"
+        android:textSize="30dp" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+
+    <Button
+        android:id="@+id/MathBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMath"
+        android:backgroundTint="@color/Light_Blue"
+        android:textColor="@color/Dark_Purple"
+        android:text="Math" />
+
+
+    <Button
+        android:id="@+id/AstroBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAstro"
+        android:textColor="@color/Yellow"
+        android:backgroundTint="@color/Pink"
+        android:text="Astronomy" />
+
+        <Button
+        android:id="@+id/CandleBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Pastel_Blue"
+        android:backgroundTint="@color/Blue_Green"
+        android:onClick="onClickCandle"
+        android:text="Candle Making" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/ASTipsNTricksBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:backgroundTint="@color/Light_Purple"
+        android:onClick="onClickASTipsNTricks"
+        android:text="Android Studio Tips and Tricks" />
+
+</LinearLayout>
