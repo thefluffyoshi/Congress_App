@@ -16,22 +16,22 @@
         android:textColor="@color/Orange"
         android:textSize="30dp"
         android:fontFamily="@font/paprika"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="50dp"
         android:gravity="center"
         android:text="Android Studio Tips and Tricks" />
 
     <TextView
         android:id="@+id/TipsTV"
-        android:layout_width="341dp"
-        android:layout_height="160dp"
+        android:layout_width="372dp"
+        android:layout_height="250dp"
         android:fontFamily="@font/quicksand_medium"
-        android:textSize="17dp"
         android:text=""
-        android:textColor="@color/Orange" />
+        android:textColor="@color/Orange"
+        android:textSize="17dp" />
 
     <TableRow
         android:id="@+id/tableRow1"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/Light_Purple"
         android:layout_marginTop="15dp" >
@@ -61,9 +61,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/Orange"
-            android:onClick="onClickTip2"
-            android:text="Tip 3"
             android:fontFamily="@font/space_mono"
+            android:onClick="onClickTip3"
+            android:text="Tip 3"
             android:textColor="@color/Light_Purple" />
 
         <Button
@@ -86,4 +86,5 @@
             android:backgroundTint="@color/Dark_Purple"
             android:fontFamily="@font/space_mono"
             android:text="Back To Home" />
+
 </LinearLayout>

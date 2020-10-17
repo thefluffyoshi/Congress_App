@@ -32,6 +32,9 @@
         android:id="@+id/BTHBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/Dark_Purple"
+        android:textColor="@color/Pastel_Blue"
+        android:fontFamily="@font/space_mono"
         android:onClick="onClickBTH"
         android:text="Back to Home" />
 

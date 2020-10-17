@@ -29,7 +29,7 @@
         app:srcCompat="@drawable/factoring_flow_chart" />
 
     <TextView
-        android:id="@+id/TipsTV"
+        android:id="@+id/MathTV"
         android:layout_width="341dp"
         android:layout_height="160dp"
         android:fontFamily="@font/quicksand_medium"
@@ -39,7 +39,7 @@
 
     <TableRow
         android:id="@+id/tableRow1"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp" >
 
@@ -57,19 +57,26 @@
             android:id="@+id/trigBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/space_mono"
-            android:textColor="@color/Light_Blue"
             android:backgroundTint="@color/Dark_Purple"
-            android:text="Trigonometry" />
+            android:fontFamily="@font/space_mono"
+            android:onClick="onClickTrig"
+            android:text="Trigonometry"
+            android:textColor="@color/Light_Blue" />
 
     </TableRow>
-    <Button
-        android:id="@+id/backToHomeBTN"
+
+    <TableRow
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/Dark_Purple"
-        android:onClick="onClickBackHome"
-        android:text="Back To Home"
-        android:fontFamily="@font/space_mono"
-        android:textColor="@color/Pink" />
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/backToHomeBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Dark_Purple"
+            android:fontFamily="@font/space_mono"
+            android:onClick="onClickBackHome"
+            android:text="Back To Home"
+            android:textColor="@color/Pink" />
+    </TableRow>
 </LinearLayout>
