@@ -26,5 +26,20 @@ public class Math extends AppCompatActivity {
         chart.setVisibility(View.VISIBLE);
     }
 
+    public void onClickTrig(View view)
+    {
+        ImageView chart = (ImageView)findViewById(R.id.flowChartIV);
+        chart.setVisibility(View.INVISIBLE);
+    }
+
+    //coterminal angles
+
+    public void onClickLimits(View view)
+    {
+        //how to find limits
+    }
+
+    //
+
     //Calculus!!
 }
