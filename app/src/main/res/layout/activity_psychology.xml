@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Pink"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Psychology">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/Yellow"
+        android:fontFamily="@font/paprika"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="Psychology" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="341dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="@color/Yellow"
+        android:textSize="17dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Yellow"
+        android:fontFamily="@font/space_mono"
+        android:text="Abnormal"
+        android:textColor="@color/Pink" />
+
+    <Button
+        android:id="@+id/homeBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Dark_Purple"
+        android:fontFamily="@font/space_mono"
+        android:onClick="onClickBckHome"
+        android:text="Back to home"
+        android:textColor="@color/Pink" />
+</LinearLayout>

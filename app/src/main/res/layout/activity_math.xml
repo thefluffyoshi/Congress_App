@@ -14,22 +14,54 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/Dark_Purple"
+        android:fontFamily="@font/paprika"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
         android:text="Math" />
 
-    <TextView
-        android:id="@+id/MathTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/Dark_Purple"
-        android:text="" />
 
+    <TextView
+        android:id="@+id/TipsTV"
+        android:layout_width="341dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text=""
+        android:textSize="17dp"
+        android:textColor="@color/Dark_Purple" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:id="@+id/factorBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/space_mono"
+            android:textColor="@color/Light_Blue"
+            android:backgroundTint="@color/Dark_Purple"
+            android:text="Factoring Chart" />
+
+        <Button
+            android:id="@+id/trigBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/space_mono"
+            android:textColor="@color/Light_Blue"
+            android:backgroundTint="@color/Dark_Purple"
+            android:text="Trigonometry" />
+
+    </TableRow>
     <Button
         android:id="@+id/backToHomeBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickBackHome"
-        android:textColor="@color/Pink"
         android:backgroundTint="@color/Dark_Purple"
-        android:text="Back To Home" />
-
+        android:onClick="onClickBackHome"
+        android:text="Back To Home"
+        android:fontFamily="@font/space_mono"
+        android:textColor="@color/Pink" />
 </LinearLayout>

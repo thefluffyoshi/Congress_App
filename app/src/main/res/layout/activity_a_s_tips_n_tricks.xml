@@ -15,13 +15,17 @@
         android:layout_height="wrap_content"
         android:textColor="@color/Orange"
         android:textSize="30dp"
-        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/paprika"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
         android:text="Android Studio Tips and Tricks" />
 
     <TextView
         android:id="@+id/TipsTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="341dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textSize="17dp"
         android:text=""
         android:textColor="@color/Orange" />
 
@@ -32,25 +36,54 @@
         android:background="@color/Light_Purple"
         android:layout_marginTop="15dp" >
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tip 1" />
+        <Button
+            android:id="@+id/tip1BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Orange"
+            android:textColor="@color/Light_Purple"
+            android:onClick="onClickTip1"
+            android:fontFamily="@font/space_mono"
+            android:text="Tip 1" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <Button
+            android:id="@+id/tip2BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Orange"
+            android:onClick="onClickTip2"
+            android:text="Tip 2"
+            android:fontFamily="@font/space_mono"
+            android:textColor="@color/Light_Purple" />
 
-    <Button
-        android:id="@+id/backBTN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onClickBckHome"
-        android:textColor="@color/Pink"
-        android:backgroundTint="@color/Dark_Purple"
-        android:text="Back To Home" />
+        <Button
+            android:id="@+id/tip3BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Orange"
+            android:onClick="onClickTip2"
+            android:text="Tip 3"
+            android:fontFamily="@font/space_mono"
+            android:textColor="@color/Light_Purple" />
+
+        <Button
+            android:id="@+id/tip4BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Orange"
+            android:onClick="onClickTip2"
+            android:text="Tip 4"
+            android:fontFamily="@font/space_mono"
+            android:textColor="@color/Light_Purple" />
     </TableRow>
+
+        <Button
+            android:id="@+id/backBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickBckHome"
+            android:textColor="@color/Pink"
+            android:backgroundTint="@color/Dark_Purple"
+            android:fontFamily="@font/space_mono"
+            android:text="Back To Home" />
 </LinearLayout>

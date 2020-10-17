@@ -24,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, Math.class));
     }
 
-    public void onClickAstro(View view)
-    {
-        startActivity(new Intent(MainActivity.this, Astronomy.class));
-    }
+//    public void onClickAstro(View view)
+//    {
+//        startActivity(new Intent(MainActivity.this, Astronomy.class));
+//    }
 
     public void onClickCandle(View view)
     {

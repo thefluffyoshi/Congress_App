@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ASTipsNTricks"></activity>
+        <activity android:name=".Psychology"></activity>
+        <activity android:name=".ASTipsNTricks" />
         <activity android:name=".Candle_Making" />
-        <activity android:name=".Astronomy" />
         <activity android:name=".Math" />
         <activity android:name=".Screen2" />
         <activity android:name=".MainActivity">

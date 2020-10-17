@@ -14,7 +14,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/Pastel_Blue"
-        android:text="" />
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/paprika"
+        android:text="Candles" />
+
+    <TextView
+        android:id="@+id/TipsTV"
+        android:layout_width="341dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text=""
+        android:textSize="17dp"
+        android:textColor="@color/Pastel_Blue" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:id="@+id/step1BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/space_mono"
+            android:text="Step 1" />
+
+        <Button
+            android:id="@+id/step2BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/space_mono"
+            android:text="Step 2" />
+
+        <Button
+            android:id="@+id/step3BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/space_mono"
+            android:text="Step 3" />
+
+    </TableRow>
+
 
     <Button
         android:id="@+id/homeBTN"
@@ -23,5 +66,6 @@
         android:onClick="onClickHome"
         android:textColor="@color/Pink"
         android:backgroundTint="@color/Dark_Purple"
+        android:fontFamily="@font/space_mono"
         android:text="Back to Home" />
 </LinearLayout>

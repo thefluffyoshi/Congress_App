@@ -6,18 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Astronomy extends AppCompatActivity {
+public class Psychology extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_astronomy);
+        setContentView(R.layout.activity_psychology);
     }
 
     public void onClickBckHome(View view)
     {
-        startActivity(new Intent(Astronomy.this, MainActivity.class));
+        startActivity(new Intent(Psychology.this, MainActivity.class));
     }
-
-    //SPACE
 }
