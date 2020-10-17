@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class Math extends AppCompatActivity {
 
@@ -17,6 +18,12 @@ public class Math extends AppCompatActivity {
     public void onClickBackHome(View view)
     {
         startActivity(new Intent(Math.this, MainActivity.class));
+    }
+
+    public void onClickFFC(View view)
+    {
+        ImageView chart = (ImageView)findViewById(R.id.flowChartIV);
+        chart.setVisibility(View.VISIBLE);
     }
 
     //Calculus!!

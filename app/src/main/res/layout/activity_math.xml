@@ -17,9 +17,16 @@
         android:fontFamily="@font/paprika"
         android:textSize="30dp"
         android:gravity="center"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="50dp"
         android:text="Math" />
 
+
+    <ImageView
+        android:id="@+id/flowChartIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/factoring_flow_chart" />
 
     <TextView
         android:id="@+id/TipsTV"
@@ -40,10 +47,11 @@
             android:id="@+id/factorBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/space_mono"
-            android:textColor="@color/Light_Blue"
             android:backgroundTint="@color/Dark_Purple"
-            android:text="Factoring Chart" />
+            android:fontFamily="@font/space_mono"
+            android:onClick="onClickFFC"
+            android:text="Factoring Chart"
+            android:textColor="@color/Light_Blue" />
 
         <Button
             android:id="@+id/trigBTN"
