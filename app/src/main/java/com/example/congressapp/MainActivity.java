@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(MainActivity.this, Candle_Making.class));
     }
+
+    public void onClickCS(View view)
+    {
+        startActivity(new Intent(MainActivity.this, CS.class));
+    }
 }
 
 /*

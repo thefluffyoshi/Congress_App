@@ -39,11 +39,12 @@
 
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/CSBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/Pastel_Blue"
             android:fontFamily="@font/space_mono"
+            android:onClick="onClickCS"
             android:text="Com Sci"
             android:textColor="@color/Dark_Purple"
             android:textSize="15dp" />
