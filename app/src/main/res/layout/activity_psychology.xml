@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Yellow"
         android:fontFamily="@font/space_mono"
-        android:text="Abnormal"
+        android:text="Body Language"
         android:textColor="@color/Pink" />
 
     <Button
