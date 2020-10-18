@@ -18,4 +18,6 @@ public class CS extends AppCompatActivity {
     {
         startActivity(new Intent(CS.this, MainActivity.class));
     }
+
+
 }

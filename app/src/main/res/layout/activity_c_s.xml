@@ -18,7 +18,7 @@
         android:textSize="30dp"
         android:layout_marginBottom="100dp"
         android:fontFamily="@font/paprika"
-        android:text="Computer Science" />
+        android:text="Computer Science (Java)" />
 
     <TableRow
         android:id="@+id/tableRow1"
