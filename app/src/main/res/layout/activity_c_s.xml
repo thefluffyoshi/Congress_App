@@ -20,6 +20,15 @@
         android:fontFamily="@font/paprika"
         android:text="Computer Science (Java)" />
 
+    <TextView
+        android:id="@+id/StepsTV"
+        android:layout_width="341dp"
+        android:layout_height="199dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text=""
+        android:textColor="@color/Dark_Purple"
+        android:textSize="17dp" />
+
     <TableRow
         android:id="@+id/tableRow1"
         android:layout_width="fill_parent"
