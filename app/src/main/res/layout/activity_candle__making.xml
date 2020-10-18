@@ -21,13 +21,13 @@
         android:text="Candles" />
 
     <TextView
-        android:id="@+id/TipsTV"
+        android:id="@+id/StepsTV"
         android:layout_width="341dp"
-        android:layout_height="160dp"
+        android:layout_height="199dp"
         android:fontFamily="@font/quicksand_medium"
         android:text=""
-        android:textSize="17dp"
-        android:textColor="@color/Pastel_Blue" />
+        android:textColor="@color/Pastel_Blue"
+        android:textSize="17dp" />
 
     <TableRow
         android:id="@+id/tableRow1"
@@ -40,6 +40,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/space_mono"
+            android:textColor="@color/Blue_Green"
+            android:backgroundTint="@color/Pastel_Blue"
+            android:onClick="onClickStep1"
             android:text="Step 1" />
 
         <Button
@@ -47,6 +50,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/space_mono"
+            android:textColor="@color/Blue_Green"
+            android:backgroundTint="@color/Pastel_Blue"
+            android:onClick="onClickStep2"
             android:text="Step 2" />
 
         <Button
@@ -54,7 +60,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/space_mono"
+            android:textColor="@color/Blue_Green"
+            android:backgroundTint="@color/Pastel_Blue"
+            android:onClick="onClickStep3"
             android:text="Step 3" />
+
+        <Button
+            android:id="@+id/step4BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/space_mono"
+            android:textColor="@color/Blue_Green"
+            android:backgroundTint="@color/Pastel_Blue"
+            android:onClick="onClickStep4"
+            android:text="Step 4" />
 
     </TableRow>
 
