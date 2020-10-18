@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class ASTipsNTricks extends AppCompatActivity {
 
     @Override
@@ -38,5 +40,17 @@ public class ASTipsNTricks extends AppCompatActivity {
         tip3.setText("You can set an image to be invisible through the .xml file by putting an Image View in the design, then in the .xml code put in android:visibility=\"invisible\". Then in the .java file make an OnClick method put ImageView (var name) = (ImageView)findViewById(R.id.(ID)); Underneath that, you would use the var name to set visibility by (var name).setVisibility(View.VISIBLE);");
     }
 
-    //Add information on
+    public void onClickTip4(View view)
+    {
+        TextView tip4 = (TextView) findViewById(R.id.TipsTV);
+        tip4.setText("When you're in Android Studio and you want to commit to Github, go to the top of the bar while in an Android Studio project and click VCS. Click Enable Version Control Integration then click Ok for Git. Make a commit for your project after making small parts of your app to work. Make sure to maintain good commit hygiene by using commas instead of the word \"and\"!");
+    }
+
+    public void onClickTip5(View view)
+    {
+        TextView tip5 = (TextView) findViewById(R.id.TipsTV);
+        tip5.setText("In the .xml file add buttons, remove their text and rename their IDs to be unique. Then create methods called onCreate and onClick. Add Button buttonObject1 = (Button)findViewById(R.id.button1);. You can change the variable buttonObject1 to something else and connect button1 to the ID of your button. Make onCreate and onClick methods. Then add these into onCreate buttonObject1.setText(\"\");, buttonObject1.setBackgroundColor(#(hex));, buttonObject1.setOnClickListener;. In the onClick, you can either add a toast, make it display a text or change screens.");
+    }
+
+    //Add information
 }
