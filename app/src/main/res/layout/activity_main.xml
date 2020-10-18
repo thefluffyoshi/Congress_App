@@ -55,9 +55,20 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/Pink"
             android:fontFamily="@font/space_mono"
+            android:onClick="onClickPsych"
             android:text="Psychology"
             android:textColor="@color/Yellow"
             android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/JapBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Yellow"
+            android:fontFamily="@font/space_mono"
+            android:onClick="onClickJap"
+            android:text="Japanese"
+            android:textColor="@color/Dark_Purple" />
 
     </TableRow>
 

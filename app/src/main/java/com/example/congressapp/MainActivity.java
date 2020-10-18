@@ -38,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(MainActivity.this, CS.class));
     }
+
+    public void onClickPsych(View view)
+    {
+        startActivity(new Intent(MainActivity.this, Psychology.class));
+    }
+
+    public void onClickJap(View view)
+    {
+        startActivity(new Intent(MainActivity.this, Japanese.class));
+    }
 }
 
 /*
