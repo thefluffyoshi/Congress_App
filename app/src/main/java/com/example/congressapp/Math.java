@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class Math extends AppCompatActivity {
 
     @Override
@@ -23,23 +25,34 @@ public class Math extends AppCompatActivity {
 
     public void onClickFFC(View view)
     {
-        ImageView chart = (ImageView)findViewById(R.id.flowChartIV);
-        chart.setVisibility(View.VISIBLE);
+        updateIVFFC();
     }
 
     public void onClickTrig(View view)
     {
-        ImageView chart = (ImageView)findViewById(R.id.flowChartIV);
-        chart.setVisibility(View.INVISIBLE);
-        TextView trig = (TextView)findViewById(R.id.MathTV);
+        updateIVFFC();
+        TextView trig = (TextView) findViewById(R.id.MathTV);
         trig.setText("Opp = Opposite   Hyp = Hypotenuse   Adj = Adjacent \n sinθ = opp/hyp   cscθ = hyp/opp \n cosθ = adj/hyp   secθ = hyp/adj \n tanθ = opp/adj   cotθ = adj/opp");
     }
 
     //coterminal angles
+    public void onClickCoterminalAngles()
+    {
+        updateIVFFC();
+        TextView CA = (TextView) findViewById(R.id.MathTV);
+    }
 
     public void onClickLimits(View view)
     {
-        //how to find limits
+        updateIVFFC();
+        TextView limits = (TextView) findViewById(R.id.MathTV);
+        limits.setText("");
+    }
+
+    private void updateIVFFC()
+    {
+        ImageView chart = (ImageView)findViewById(R.id.flowChartIV);
+        chart.setVisibility(View.INVISIBLE);
     }
 
     //
