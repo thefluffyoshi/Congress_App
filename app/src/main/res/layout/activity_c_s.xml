@@ -10,20 +10,20 @@
     tools:context=".CS">
 
     <TextView
-        android:id="@+id/csTV"
+        android:id="@+id/javaTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/Dark_Purple"
         android:gravity="center"
         android:textSize="30dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="50dp"
         android:fontFamily="@font/paprika"
         android:text="Computer Science (Java)" />
 
     <TextView
-        android:id="@+id/StepsTV"
+        android:id="@+id/csTV"
         android:layout_width="341dp"
-        android:layout_height="199dp"
+        android:layout_height="361dp"
         android:fontFamily="@font/quicksand_medium"
         android:text=""
         android:textColor="@color/Dark_Purple"
@@ -31,10 +31,27 @@
 
     <TableRow
         android:id="@+id/tableRow1"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp">
 
+        <Button
+            android:id="@+id/forLoopBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickForLoop"
+            android:backgroundTint="@color/Dark_Purple"
+            android:textColor="@color/Pastel_Blue"
+            android:text="For Loop" />
+
+        <Button
+            android:id="@+id/ArrayBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickArray"
+            android:backgroundTint="@color/Dark_Purple"
+            android:textColor="@color/Pastel_Blue"
+            android:text="Array" />
     </TableRow>
 
     <Button
@@ -42,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Dark_Purple"
-        android:textColor="@color/Pastel_Blue"
+        android:textColor="@color/Pink"
         android:fontFamily="@font/space_mono"
         android:onClick="onClickBTH"
         android:text="Back to Home" />
