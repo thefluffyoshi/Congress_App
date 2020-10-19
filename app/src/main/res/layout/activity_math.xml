@@ -63,6 +63,16 @@
             android:text="Trigonometry"
             android:textColor="@color/Light_Blue" />
 
+        <Button
+            android:id="@+id/triIdentsgBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Dark_Purple"
+            android:fontFamily="@font/space_mono"
+            android:onClick="onClickTrigIdentities"
+            android:text="Trig Identities"
+            android:textColor="@color/Light_Blue" />
+
     </TableRow>
 
     <TableRow
@@ -78,5 +88,14 @@
             android:onClick="onClickBackHome"
             android:text="Back To Home"
             android:textColor="@color/Pink" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Dark_Purple"
+            android:textColor="@color/Light_Blue"
+            android:fontFamily="@font/space_mono"
+            android:text="Page 2" />
     </TableRow>
 </LinearLayout>
