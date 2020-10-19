@@ -21,20 +21,21 @@
         android:text="Psychology" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/psychTV"
         android:layout_width="341dp"
-        android:layout_height="160dp"
+        android:layout_height="322dp"
         android:fontFamily="@font/quicksand_medium"
+        android:text=""
         android:textColor="@color/Yellow"
-        android:textSize="17dp"
-        android:text="" />
+        android:textSize="17dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/BLBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Yellow"
         android:fontFamily="@font/space_mono"
+        android:onClick="onClickBodyLang"
         android:text="Body Language"
         android:textColor="@color/Pink" />
 
