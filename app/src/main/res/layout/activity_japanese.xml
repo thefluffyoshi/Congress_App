@@ -15,18 +15,35 @@
         android:layout_height="wrap_content"
         android:textColor="@color/Dark_Purple"
         android:textSize="30dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="50dp"
         android:fontFamily="@font/paprika"
         android:text="Japanese" />
 
     <TextView
-        android:id="@+id/StepsTV"
+        android:id="@+id/JapTV"
         android:layout_width="341dp"
-        android:layout_height="199dp"
+        android:layout_height="356dp"
         android:fontFamily="@font/quicksand_medium"
         android:text=""
         android:textColor="@color/Dark_Purple"
         android:textSize="17dp" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/HiraganaBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Dark_Purple"
+            android:fontFamily="@font/space_mono"
+            android:text="Hiragana"
+            android:onClick="onClickHiragana"
+            android:textColor="@color/Yellow" />
+    </TableRow>
 
     <Button
         android:id="@+id/bthBTN"
@@ -34,6 +51,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Dark_Purple"
         android:textColor="@color/Pastel_Blue"
+        android:fontFamily="@font/space_mono"
         android:onClick="onClickbth"
         android:text="Back to home" />
 </LinearLayout>
